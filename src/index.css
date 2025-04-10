@@ -3,17 +3,27 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 @theme {
   --color-gray-10: #1a1a1a;
   --color-gray-60: #999999;
+  --color-gray-30: #4D4D4D;
   --color-purple-60: #703bf7;
 }
 
 @layer utilities {
   .max-container {
     @apply container mx-auto px-4 md:px-6 lg:px-10 py-2 md:py-3;
+  } 
+
+  .flex-center{
+    @apply flex items-center ;
+  }
+
+  .featue-card{
+    @apply max-w-[512px] border border-gray-60/30 rounded-md p-5 ; 
   }
 }
 

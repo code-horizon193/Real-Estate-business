@@ -16,7 +16,7 @@ const NavBar = () => {
     "whitespace-nowrap px-3 py-1 rounded-md text-base font-medium text-gray-60";
 
   return (
-    <div className="w-screen bg-gray-10 mb-4">
+    <div className="w-screen bg-gray-10">
       <div className="max-container">
         <div className="flex items-center justify-between ">
           <div>

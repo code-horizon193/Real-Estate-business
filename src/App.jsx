@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router";
 
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
 import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import Properites from "./pages/Properites";
