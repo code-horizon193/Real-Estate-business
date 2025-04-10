@@ -38,26 +38,26 @@ export const statics = [
 
 export const iconBoxs = [
   {
-    icon: "public/base-i_1.svg",
+    icon: "base-i_1.svg",
     description: "Find Your Dream Home",
   },
   {
-    icon: "public/base-i_2.svg",
+    icon: "base-i_2.svg",
     description: "Unlock Property Value",
   },
   {
-    icon: "public/base-i_3.svg",
+    icon: "base-i_3.svg",
     description: "Effortless Property Management",
   },
   {
-    icon: "public/base-i_4.svg",
+    icon: "base-i_4.svg",
     description: "Smart Investments, Informed Decisions",
   },
 ];
 
 export const features = [
   {
-    image: "public/feat-1.png",
+    image: "feat-1.png",
     featName: "Seaside Serenity Villa",
     caption:
       "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
@@ -67,7 +67,7 @@ export const features = [
     price: "550,000",
   },
   {
-    image: "public/feat-2.png",
+    image: "feat-2.png",
     featName: "Metropolitan Haven",
     caption:
       "A chic and fully-furnished 2-bedroom apartment with panoramic city views...",
@@ -77,7 +77,7 @@ export const features = [
     price: "566,500",
   },
   {
-    image: "public/feat-3.png",
+    image: "feat-3.png",
     featName: "Rustic Retreat Cottage",
     caption:
       "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...",
@@ -95,7 +95,7 @@ export const testimonials = [
       "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
     rate: 5,
     user: {
-      profile: "public/user-1.png",
+      profile: "user-1.png",
       name: "Wade Warren",
       location: "USA, California",
     },
@@ -106,7 +106,7 @@ export const testimonials = [
       "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
     rate: 5,
     user: {
-      profile: "public/user-2.png",
+      profile: "user-2.png",
       name: "Emelie Thomson",
       location: "USA, Florida",
     },
@@ -117,14 +117,14 @@ export const testimonials = [
       "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
     rate: 5,
     user: {
-      profile: "public/user-3.png",
+      profile: "user-3.png",
       name: "Ken Recho",
       location: "USA, Florida",
     },
   },
 ];
 
-export const FAQS = [
+export const questions = [
   {
     question: "How do I search for properties on Estatein?",
     answer:
@@ -139,5 +139,40 @@ export const FAQS = [
     question: "How can I contact an Estatein agent?",
     answer:
       "Discover the different ways you can get in touch with our experienced agents.",
+  },
+];
+
+export const footerLinks = [
+  {
+    title: "home",
+    links: ["hero section", "features", "properties", "testimonilas", "FAQ's"],
+  },
+  {
+    title: "about us",
+    links: [
+      "our story",
+      "our works",
+      "how it works",
+      "our team",
+      "our clients",
+    ],
+  },
+  {
+    title: "properties",
+    links: ["portfolio", "categories"],
+  },
+  {
+    title: "services",
+    links: [
+      "Valuation Mastery",
+      "Strategic Marketing",
+      "Negotiation Wizardry",
+      "Closing Success",
+      "Property Management",
+    ],
+  },
+  {
+    title: "contact us",
+    links: ["contact form", "our offices"],
   },
 ];

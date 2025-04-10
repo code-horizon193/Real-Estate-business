@@ -30,20 +30,22 @@ const FeatureCard = ({
         </div>
 
         <div className="my-3">
-          <h3 className="text-lg text-white capitalize">{name}</h3>
+          <h3 className="text-lg text-white capitalize cursor-pointer hover:underline transition w-fit">{name}</h3>
           <p className="mt-1 text-sm text-gray-60">{caption}</p>
 
           <div className="my-2.5 flex-center flex-wrap gap-3">
-            <div className="flex-center gap-2 text-white bg-gray-10 border border-gray-30 px-3 rounded-full py-1.5 text-sm">
+            <div className="flex-center transition hover:bg-black cursor-pointer hover:text-gray-60 gap-2 text-white bg-gray-10 border border-gray-30 px-3 rounded-full py-1.5 text-sm">
               <IoBed className="text-lg" />
-              <span>{bedroom}-BedRoom</span>
+              <span>{bedroom} -BedRoom</span>
             </div>
-            <div className="flex-center gap-2 text-white bg-gray-10 border border-gray-30 px-3 rounded-full py-1.5 text-sm">
+
+            <div className="flex-center transition hover:bg-black cursor-pointer hover:text-gray-60 gap-2 text-white bg-gray-10 border border-gray-30 px-3 rounded-full py-1.5 text-sm">
               <FaBath className="text-lg" />
-              <span>{bathroom}-BedRoom</span>
+              <span>{bathroom} -BedRoom</span>
             </div>
+
             {villa && (
-              <div className="flex-center gap-2 text-white bg-gray-10 border border-gray-30 px-3 rounded-full py-1.5 text-sm">
+              <div className="flex-center transition hover:bg-black cursor-pointer hover:text-gray-60 gap-2 text-white bg-gray-10 border border-gray-30 px-3 rounded-full py-1.5 text-sm">
                 <MdVilla className="text-lg" />
                 <span>Villa</span>
               </div>

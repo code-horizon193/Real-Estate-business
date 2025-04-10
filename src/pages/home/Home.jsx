@@ -3,6 +3,8 @@ import React from "react";
 import Land from "./Land";
 import FeaturePropites from "./FeaturePropites";
 import Testimonilales from "./Testimonilales";
+import FAQ from "./FAQ";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -11,7 +13,10 @@ const Home = () => {
         <Land />
         <FeaturePropites />
         <Testimonilales />
+        <FAQ />
       </div>
+      
+      <Footer />
     </div>
   );
 };

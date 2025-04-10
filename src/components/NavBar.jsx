@@ -10,10 +10,10 @@ const NavBar = () => {
   const [isOpen, setisOpen] = useState(false);
 
   const activeLink =
-    "px-3 py-1 bg-black rounded-md text-base font-medium text-white";
-  const normalLink = "px-3 py-1 rounded-md text-base font-medium text-gray-60";
+    "px-3 py-1.5 bg-purple-60 rounded-md text-base font-medium text-white";
+  const normalLink = "px-3 py-1.5 rounded-md text-base font-medium text-gray-60 hover:bg-black";
   const mobileNormalLink =
-    "whitespace-nowrap px-3 py-1 rounded-md text-base font-medium text-gray-60";
+    "whitespace-nowrap px-3 py-1.5 rounded-md text-base font-medium text-gray-60 hover:bg-black";
 
   return (
     <div className="w-screen bg-gray-10">
@@ -25,7 +25,7 @@ const NavBar = () => {
               className="flex items-center gap-2 cursor-pointer select-none"
             >
               <img
-                src="public/icon.svg"
+                src="icon.svg"
                 alt="logo"
                 className="size-6 md:size-9 lg:size-10"
               />
@@ -65,8 +65,8 @@ const NavBar = () => {
             } transition-all duration-300 ease-in-out top-0 w-52 bg-gray-10 h-dvh`}
             style={{ zIndex: "1000" }}
           >
-            <div className="size-full py-7 px-2 flex flex-col gap-3">
-              <div className="mb-3 border-b pb-2 border-b-gray-60">
+            <div className="size-full py-7 px-2 flex flex-col gap-2">
+              <div className="mb-3 border-b pb-2 border-b-gray-30">
                 <p className="text-xl font-semibold text-gray-300 uppercase">
                   Menu
                 </p>

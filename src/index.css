@@ -22,8 +22,15 @@ body {
     @apply flex items-center ;
   }
 
-  .featue-card{
-    @apply max-w-[512px] border border-gray-60/30 rounded-md p-5 ; 
+  .featue-card {
+    @apply max-w-[512px] border border-gray-60/30 bg-gray-10 rounded-md p-5 ; 
+  }
+
+  .cta {
+    background-image: url(left-bg.png) ,url(right-bg.png);
+    background-position: left top ,right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
