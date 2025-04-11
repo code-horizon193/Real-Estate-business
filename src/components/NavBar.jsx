@@ -62,7 +62,7 @@ const NavBar = () => {
           <div
             className={`fixed ${
               isOpen ? "left-0" : "-left-full"
-            } transition-all duration-300 ease-in-out top-0 w-52 bg-gray-10 h-dvh`}
+            } transition-all duration-300 ease-in-out top-0 w-52 bg-gray-950 h-dvh shadow-lg shadow-gray-50/25`}
             style={{ zIndex: "1000" }}
           >
             <div className="size-full py-7 px-2 flex flex-col gap-2">

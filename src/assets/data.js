@@ -176,3 +176,51 @@ export const footerLinks = [
     links: ["contact form", "our offices"],
   },
 ];
+
+export const values = [
+  {
+    image: "public/about-1.svg",
+    vName: "trust",
+    vSubTitle:
+      "Trust is the cornerstone of every successful real estate transaction.",
+  },
+  {
+    image: "public/about-2.svg",
+    vName: "excellence",
+    vSubTitle:
+      "We set the bar high for ourselves. From the properties we list to the services we provide.",
+  },
+  {
+    image: "public/about-3.svg",
+    vName: "client-center",
+    vSubTitle:
+      "Your dreams and needs are at the center of our universe. We listen, understand.",
+  },
+  {
+    image: "public/about-4.svg",
+    vName: "our-commitment",
+    vSubTitle:
+      "We are dedicated to providing you with the highest level of service, professionalism, and support.",
+  },
+];
+
+export const achievement = [
+  {
+    image: "public/award.svg",
+    title: "3+ Years of Excellence",
+    discription:
+      "With over 3 years in the industry, we've amassed a wealth of knowledge and experience.",
+  },
+  {
+    image: "public/client.svg",
+    title: "Happy Clients",
+    discription:
+      "Our greatest achievement is the satisfaction of our clients. Their success stories fuel our passion for what we do.",
+  },
+  {
+    image: "public/build.svg",
+    title: "Industry Recognition",
+    discription:
+      "We've earned the respect of our peers and industry leaders, with accolades and awards that reflect our commitment to excellence.",
+  },
+];

@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "../../components/Button";
 import IconContainer from "../../components/IconContainer";
-
+import StaticCard from "../../components/StaticCard";
 import { statics, iconBoxs } from "../../assets/data";
 import img from "../../assets/landpage.png";
 import discoverimg from "../../assets/discover.png";
@@ -33,7 +33,7 @@ const Land = () => {
 
           <div className="grid mt-5 grid-cols-2 sm:grid-cols-3 gap-2 md:mx-4 mx-0">
             {statics.map((item, index) => (
-              <SatticCard key={index} num={item.number} text={item.title} />
+              <StaticCard key={index} num={item.number} text={item.title} />
             ))}
           </div>
         </div>
@@ -71,12 +71,3 @@ const Land = () => {
 };
 
 export default Land;
-
-export const SatticCard = ({ num, text }) => {
-  return (
-    <div className="bg-gray-10 rounded-md p-3 last:col-span-2 sm:last:col-span-1">
-      <p className="text-white text-2xl font-semibold">{num}</p>
-      <p className="mt-1 text-gray-60 text-sm">{text}</p>
-    </div>
-  );
-};

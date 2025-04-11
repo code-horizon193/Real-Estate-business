@@ -15,7 +15,7 @@ body {
 
 @layer utilities {
   .max-container {
-    @apply container mx-auto px-4 md:px-6 lg:px-10 py-2 md:py-3;
+    @apply container mx-auto px-4 md:px-7 lg:px-10 py-2 md:py-4;
   } 
 
   .flex-center{
@@ -23,7 +23,7 @@ body {
   }
 
   .featue-card {
-    @apply max-w-[512px] border border-gray-60/30 bg-gray-10 rounded-md p-5 ; 
+    @apply max-w-[500px] border border-gray-60/30 bg-gray-10 rounded-md p-5 ; 
   }
 
   .cta {
@@ -32,6 +32,21 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+
+}
+
+.about::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url(grid.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.6);
 }
 
 /* Loader Style */

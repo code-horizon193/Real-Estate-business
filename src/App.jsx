@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router";
 
 import Home from "./pages/home/Home";
-import AboutUs from "./pages/AboutUs";
+import AboutUs from "./pages/AboutPage/AboutUs";
 import Contact from "./pages/Contact";
 import Properites from "./pages/Properites";
 import Services from "./pages/Services";
