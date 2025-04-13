@@ -266,17 +266,70 @@ export const navigating = [
 
 export const vaileds = [
   {
-    year: 2019 ,
-    box_title: "ABC Corporation" ,
-    domain: "Commercial Real Estate" ,
-    category: "Luxury Home Development" ,
-    comment: "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs."
-  } ,
+    year: 2019,
+    box_title: "ABC Corporation",
+    domain: "Commercial Real Estate",
+    category: "Luxury Home Development",
+    comment:
+      "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs.",
+  },
   {
-    year: 2019 ,
-    box_title: "GreenTech Enterprises" ,
-    domain: "Commercial Real Estate" ,
-    category: "Retail Space" ,
-    comment: "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth."
-  } ,
-]
+    year: 2019,
+    box_title: "GreenTech Enterprises",
+    domain: "Commercial Real Estate",
+    category: "Retail Space",
+    comment:
+      "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth.",
+  },
+];
+
+export const team = [
+  {
+    name: "adrian black",
+    position: "project manager",
+    image: "person-1.jpg",
+    gradient: "to-indigo-500" ,
+    shadow: "shadow-indigo-500/20" ,
+    color: "text-indigo-500"
+  },
+  {
+    name: "celeste monroe",
+    position: "content / marketing specialist",
+    image: "person-2.jpg",
+    gradient: "to-rose-500" ,
+    shadow: "shadow-red-500/20",
+    color: "text-red-500"
+  },
+  {
+    name: "julian cross",
+    position: "web developer",
+    image: "person-3.jpg",
+    gradient: "to-fuchsia-500",
+    shadow: "shadow-fuchsia-500/20",
+    color: "text-fuchsia-500"
+  },
+  {
+    name: "leon everet",
+    position: "graphic designer",
+    image: "person-4.jpg",
+    gradient: "to-cyan-400",
+    shadow: "shadow-cyan-500/20",
+    color: "text-cyan-500"
+  },
+  {
+    name: "isla quinn",
+    position: "sales executive",
+    image: "person-5.jpg",
+    gradient: "to-green-400",
+    shadow: "shadow-green-500/20",
+    color: "text-green-500"
+  },
+  {
+    name: "serena white",
+    position: "data analyst",
+    image: "person-6.jpg",
+    gradient: "to-orange-500",
+    shadow: "shadow-orange-500/20",
+    color: "text-orange-500"
+  },
+];

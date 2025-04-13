@@ -5,6 +5,7 @@ import Achievements from "./Achievements";
 import Navigating from "./Navigating";
 import ValiedClients from "./ValiedClients";
 import Footer from "../../components/Footer";
+import Team from "./Team";
 
 const AboutUs = () => {
   return (
@@ -15,6 +16,7 @@ const AboutUs = () => {
         <Achievements />
         <Navigating />
         <ValiedClients />
+        <Team />
       </div>
       <Footer />
     </div>
