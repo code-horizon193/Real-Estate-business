@@ -206,21 +206,77 @@ export const values = [
 
 export const achievement = [
   {
-    image: "public/award.svg",
+    image: "award.svg",
     title: "3+ Years of Excellence",
     discription:
       "With over 3 years in the industry, we've amassed a wealth of knowledge and experience.",
   },
   {
-    image: "public/client.svg",
+    image: "client.svg",
     title: "Happy Clients",
     discription:
       "Our greatest achievement is the satisfaction of our clients. Their success stories fuel our passion for what we do.",
   },
   {
-    image: "public/build.svg",
+    image: "build.svg",
     title: "Industry Recognition",
     discription:
       "We've earned the respect of our peers and industry leaders, with accolades and awards that reflect our commitment to excellence.",
   },
 ];
+
+export const navigating = [
+  {
+    header: "Step 01",
+    title: "Discover a World of Possibilities",
+    content:
+      "Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location, type, size, and budget.",
+  },
+  {
+    header: "Step 02",
+    title: "Narrowing Down Your Choices",
+    content:
+      "Once you've found properties that catch your eye, save them to your account or make a shortlist. This allows you to compare and revisit your favorites as you make your decision.",
+  },
+  {
+    header: "Step 03",
+    title: "Personalized Guidance",
+    content:
+      "Have questions about a property or need more information? Our dedicated team of real estate experts is just a call or message away.",
+  },
+  {
+    header: "Step 04",
+    title: "See It for Yourself",
+    content:
+      "Arrange viewings of the properties you're interested in. We'll coordinate with the property owners and accompany you to ensure you get a firsthand look at your potential new home.",
+  },
+  {
+    header: "Step 05",
+    title: "Making Informed Decisions",
+    content:
+      "Before making an offer, our team will assist you with due diligence, including property inspections, legal checks, and market analysis. We want you to be fully informed and confident in your choice.",
+  },
+  {
+    header: "Step 06",
+    title: "Getting the Best Deal",
+    content:
+      "We'll help you negotiate the best terms and prepare your offer. Our goal is to secure the property at the right price and on favorable terms.",
+  },
+];
+
+export const vaileds = [
+  {
+    year: 2019 ,
+    box_title: "ABC Corporation" ,
+    domain: "Commercial Real Estate" ,
+    category: "Luxury Home Development" ,
+    comment: "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs."
+  } ,
+  {
+    year: 2019 ,
+    box_title: "GreenTech Enterprises" ,
+    domain: "Commercial Real Estate" ,
+    category: "Retail Space" ,
+    comment: "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth."
+  } ,
+]

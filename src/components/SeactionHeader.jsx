@@ -16,7 +16,7 @@ const SeactionHeader = ({ title, subTiltle }) => {
           {title}
         </h2>
 
-        <p className="text-sm max-w-2xl text-gray-60">{subTiltle}</p>
+        <p className="text-sm max-w-2xl lg:max-w-full text-gray-60">{subTiltle}</p>
       </div>
     </div>
   );
