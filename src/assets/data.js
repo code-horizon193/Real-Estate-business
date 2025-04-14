@@ -44,26 +44,26 @@ export const statics = [
 
 export const iconBoxs = [
   {
-    icon: "../public/base-i_1.svg",
+    icon: "/base-i_1.svg",
     description: "Find Your Dream Home",
   },
   {
-    icon: "../public/base-i_2.svg",
+    icon: "/base-i_2.svg",
     description: "Unlock Property Value",
   },
   {
-    icon: "../public/base-i_3.svg",
+    icon: "/base-i_3.svg",
     description: "Effortless Property Management",
   },
   {
-    icon: "../public/base-i_4.svg",
+    icon: "/base-i_4.svg",
     description: "Smart Investments, Informed Decisions",
   },
 ];
 
 export const features = [
   {
-    image: "../public/feat-1.png",
+    image: "/feat-1.png",
     featName: "Seaside Serenity Villa",
     caption:
       "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
@@ -73,7 +73,7 @@ export const features = [
     price: "550,000",
   },
   {
-    image: "../public/feat-2.png",
+    image: "/feat-2.png",
     featName: "Metropolitan Haven",
     caption:
       "A chic and fully-furnished 2-bedroom apartment with panoramic city views...",
@@ -83,7 +83,7 @@ export const features = [
     price: "566,500",
   },
   {
-    image: "../public/feat-3.png",
+    image: "/feat-3.png",
     featName: "Rustic Retreat Cottage",
     caption:
       "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...",
@@ -101,7 +101,7 @@ export const testimonials = [
       "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
     rate: 5,
     user: {
-      profile: "../public/user-1.png",
+      profile: "/user-1.png",
       name: "Wade Warren",
       location: "USA, California",
     },
@@ -112,7 +112,7 @@ export const testimonials = [
       "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
     rate: 5,
     user: {
-      profile: "../public/user-2.png",
+      profile: "/user-2.png",
       name: "Emelie Thomson",
       location: "USA, Florida",
     },
@@ -123,7 +123,7 @@ export const testimonials = [
       "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
     rate: 5,
     user: {
-      profile: "../public/user-3.png",
+      profile: "/user-3.png",
       name: "Ken Recho",
       location: "USA, Florida",
     },
@@ -185,25 +185,25 @@ export const footerLinks = [
 
 export const values = [
   {
-    image: "../public/about-1.svg",
+    image: "/about-1.svg",
     vName: "trust",
     vSubTitle:
       "Trust is the cornerstone of every successful real estate transaction.",
   },
   {
-    image: "../public/about-2.svg",
+    image: "/about-2.svg",
     vName: "excellence",
     vSubTitle:
       "We set the bar high for ourselves. From the properties we list to the services we provide.",
   },
   {
-    image: "../public/about-3.svg",
+    image: "/about-3.svg",
     vName: "client-center",
     vSubTitle:
       "Your dreams and needs are at the center of our universe. We listen, understand.",
   },
   {
-    image: "../public/about-4.svg",
+    image: "/about-4.svg",
     vName: "our-commitment",
     vSubTitle:
       "We are dedicated to providing you with the highest level of service, professionalism, and support.",
@@ -218,13 +218,13 @@ export const achievement = [
       "With over 3 years in the industry, we've amassed a wealth of knowledge and experience.",
   },
   {
-    image: "client.svg",
+    image: "/client.svg",
     title: "Happy Clients",
     discription:
       "Our greatest achievement is the satisfaction of our clients. Their success stories fuel our passion for what we do.",
   },
   {
-    image: "build.svg",
+    image: "/build.svg",
     title: "Industry Recognition",
     discription:
       "We've earned the respect of our peers and industry leaders, with accolades and awards that reflect our commitment to excellence.",
@@ -293,7 +293,7 @@ export const team = [
   {
     name: "adrian black",
     position: "project manager",
-    image: "person-1.jpg",
+    image: "/person-1.jpg",
     gradient: "to-indigo-500",
     shadow: "shadow-indigo-500/20",
     color: "text-indigo-500",
@@ -301,7 +301,7 @@ export const team = [
   {
     name: "celeste monroe",
     position: "content / marketing specialist",
-    image: "person-2.jpg",
+    image: "/person-2.jpg",
     gradient: "to-rose-500",
     shadow: "shadow-red-500/20",
     color: "text-red-500",
@@ -317,7 +317,7 @@ export const team = [
   {
     name: "leon everet",
     position: "graphic designer",
-    image: "person-4.jpg",
+    image: "/person-4.jpg",
     gradient: "to-cyan-400",
     shadow: "shadow-cyan-500/20",
     color: "text-cyan-500",
@@ -325,7 +325,7 @@ export const team = [
   {
     name: "isla quinn",
     position: "sales executive",
-    image: "person-5.jpg",
+    image: "/person-5.jpg",
     gradient: "to-green-400",
     shadow: "shadow-green-500/20",
     color: "text-green-500",
@@ -333,7 +333,7 @@ export const team = [
   {
     name: "serena white",
     position: "data analyst",
-    image: "person-6.jpg",
+    image: "/person-6.jpg",
     gradient: "to-orange-500",
     shadow: "shadow-orange-500/20",
     color: "text-orange-500",
@@ -437,25 +437,25 @@ export const labelsContact = [
 
 export const propertuValues = [
   {
-    icon: "../public/value-1.svg",
+    icon: "/value-1.svg",
     propName: "Valuation Mastery",
     propCaption:
       "Discover the true worth of your property with our expert valuation services.",
   },
   {
-    icon: "value-2.svg",
+    icon: "/value-2.svg",
     propName: "Strategic Marketing",
     propCaption:
       "Selling a property requires more than just a listing; it demands a strategic marketing.",
   },
   {
-    icon: "value-3.svg",
+    icon: "/value-3.svg",
     propName: "Negotiation Wizardry",
     propCaption:
       "Negotiating the best deal is an art, and our negotiation experts are masters of it.",
   },
   {
-    icon: "value-4.svg",
+    icon: "/value-4.svg",
     propName: "Closing Success",
     propCaption:
       "A successful sale is not complete until the closing. We guide you through the intricate closing process.",
@@ -464,25 +464,25 @@ export const propertuValues = [
 
 export const efforts = [
   {
-    icon: "effort-1.svg",
+    icon: "/effort-1.svg",
     propName: "Tenant Harmony",
     propCaption:
       "Our Tenant Management services ensure that your tenants have a smooth and reducing vacancies.",
   },
   {
-    icon: "effort-2.svg",
+    icon: "/effort-2.svg",
     propName: "Maintenance Ease",
     propCaption:
       "Say goodbye to property maintenance headaches. We handle all aspects of property upkeep.",
   },
   {
-    icon: "effort-3.svg",
+    icon: "/effort-3.svg",
     propName: "Financial Peace of Mind",
     propCaption:
       "Managing property finances can be complex. Our financial experts take care of rent collection",
   },
   {
-    icon: "base-i_4.svg",
+    icon: "/base-i_4.svg",
     propName: "Legal Guardian",
     propCaption:
       "Stay compliant with property laws and regulations effortlessly.",
@@ -491,25 +491,25 @@ export const efforts = [
 
 export const info = [
   {
-    icon: "info-1.svg",
+    icon: "/info-1.svg",
     propName: "Market Insight",
     propCaption:
       "Stay ahead of market trends with our expert Market Analysis. We provide in-depth insights into real estate market conditions",
   },
   {
-    icon: "info-2.svg",
+    icon: "/info-2.svg",
     propName: "ROI Assessment",
     propCaption:
       "Make investment decisions with confidence. Our ROI Assessment services evaluate the potential returns on your investments",
   },
   {
-    icon: "info-3.svg",
+    icon: "/info-3.svg",
     propName: "Customized Strategies",
     propCaption:
       "Every investor is unique, and so are their goals. We develop Customized Investment Strategies tailored to your specific needs",
   },
   {
-    icon: "base-i_4.svg",
+    icon: "/base-i_4.svg",
     propName: "Diversification Mastery",
     propCaption:
       "Diversify your real estate portfolio effectively. Our experts guide you in spreading your investments across various property types and locations",
