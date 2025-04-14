@@ -9,45 +9,53 @@ body {
 @theme {
   --color-gray-10: #1a1a1a;
   --color-gray-60: #999999;
-  --color-gray-30: #4D4D4D;
+  --color-gray-30: #4d4d4d;
   --color-purple-60: #703bf7;
 }
 
 @layer utilities {
   .max-container {
     @apply container mx-auto px-4 md:px-7 lg:px-10 py-2 md:py-4;
-  } 
+  }
 
-  .flex-center{
-    @apply flex items-center ;
+  .flex-center {
+    @apply flex items-center;
   }
 
   .featue-card {
-    @apply max-w-[500px] border border-gray-60/30 bg-gray-10 rounded-md p-5 ; 
+    @apply max-w-[500px] border border-gray-60/30 bg-gray-10 rounded-md p-5;
   }
 
   .cta {
-    background-image: url(left-bg.png) ,url(right-bg.png);
-    background-position: left top ,right bottom;
+    background-image: url(left-bg.png), url(right-bg.png);
+    background-position: left top, right bottom;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
+  .land-grad{
+    background: linear-gradient(62deg, #262626 1%, #2626266a 45% 100%);
+  }
 }
 
-.gradient::before{
+.gradient::before {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 30px;
-  background: linear-gradient( to right bottom ,#703bf792 3%,#703bf76b 10% ,#000 15% 100%);
+  background: linear-gradient(
+    to right bottom,
+    #703bf792 3%,
+    #703bf76b 10%,
+    #000 15% 100%
+  );
   z-index: -1;
   filter: blur(15px);
 }
 
-.about::before{
+.about::before {
   content: "";
   position: absolute;
   top: 0;

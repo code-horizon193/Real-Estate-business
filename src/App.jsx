@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route } from "react-router";
 
 import Home from "./pages/home/Home";
 import AboutUs from "./pages/AboutPage/AboutUs";
-import Contact from "./pages/Contact";
-import Properites from "./pages/Properites";
-import Services from "./pages/Services";
+import Contact from "./pages/contact/Contact";
+import Properites from "./pages/properite/Properites";
+import Services from "./pages/service/Services";
 
 import NavBar from "./components/NavBar";
 

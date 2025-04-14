@@ -1,3 +1,13 @@
+import { FaLocationDot } from "react-icons/fa6";
+import { FaLocationArrow } from "react-icons/fa";
+import { BsBuildingsFill } from "react-icons/bs";
+import { HiMiniWallet } from "react-icons/hi2";
+import { PiCubeFill } from "react-icons/pi";
+import { MdCalendarToday } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaCircle } from "react-icons/fa";
+import { FaRegCircle } from "react-icons/fa";
+
 export const links = [
   {
     link: "Home",
@@ -288,17 +298,17 @@ export const team = [
     name: "adrian black",
     position: "project manager",
     image: "person-1.jpg",
-    gradient: "to-indigo-500" ,
-    shadow: "shadow-indigo-500/20" ,
-    color: "text-indigo-500"
+    gradient: "to-indigo-500",
+    shadow: "shadow-indigo-500/20",
+    color: "text-indigo-500",
   },
   {
     name: "celeste monroe",
     position: "content / marketing specialist",
     image: "person-2.jpg",
-    gradient: "to-rose-500" ,
+    gradient: "to-rose-500",
     shadow: "shadow-red-500/20",
-    color: "text-red-500"
+    color: "text-red-500",
   },
   {
     name: "julian cross",
@@ -306,7 +316,7 @@ export const team = [
     image: "person-3.jpg",
     gradient: "to-fuchsia-500",
     shadow: "shadow-fuchsia-500/20",
-    color: "text-fuchsia-500"
+    color: "text-fuchsia-500",
   },
   {
     name: "leon everet",
@@ -314,7 +324,7 @@ export const team = [
     image: "person-4.jpg",
     gradient: "to-cyan-400",
     shadow: "shadow-cyan-500/20",
-    color: "text-cyan-500"
+    color: "text-cyan-500",
   },
   {
     name: "isla quinn",
@@ -322,7 +332,7 @@ export const team = [
     image: "person-5.jpg",
     gradient: "to-green-400",
     shadow: "shadow-green-500/20",
-    color: "text-green-500"
+    color: "text-green-500",
   },
   {
     name: "serena white",
@@ -330,6 +340,106 @@ export const team = [
     image: "person-6.jpg",
     gradient: "to-orange-500",
     shadow: "shadow-orange-500/20",
-    color: "text-orange-500"
+    color: "text-orange-500",
+  },
+];
+
+export const propertyOptions = [
+  {
+    icon: FaLocationArrow,
+    label: "location",
+    options: ["Location", "Cairo", "Alexandria", "Aswan", "Giza", "Luxor"],
+  },
+  {
+    icon: BsBuildingsFill,
+    label: "property type",
+    options: ["Property Type", "Apartment", "Villa", "Studio", "Townhouse"],
+  },
+  {
+    icon: HiMiniWallet,
+    label: "price range",
+    options: [
+      "Price Range",
+      "$0 - $100K",
+      "$100K - $250K",
+      "$250K - $500K",
+      "$500K - $800K",
+      "$800K - Above+",
+    ],
+  },
+  {
+    icon: PiCubeFill,
+    label: "propertu size",
+    options: [
+      "Propertu Size",
+      "Less than 100 sqm",
+      "100 - 200 sqm",
+      "200 - 400 sqm",
+      "400 - 500 sqm",
+      "Above 500 sqm",
+    ],
+  },
+  {
+    icon: MdCalendarToday,
+    label: "build year",
+    options: ["Build Year", 2000, 2005, 2009, 2012, 2018, 2020, 2024],
+  },
+];
+
+export const labelsContact = [
+  {
+    label: "First Name",
+    placeholder: "Enter First Name",
+    
+  },
+  {
+    label: "Last Name",
+    placeholder: "Enter Last Name",
+    
+  },
+  {
+    label: "Email",
+    placeholder: "Enter Your Email",
+    
+  },
+  {
+    label: "Phone",
+    placeholder: "Enter Phone Number",
+    
+  },
+  {
+    label: "Perferred Location",
+    placeholder: "Enter Location",
+    
+  },
+  {
+    label: "Property Type",
+    placeholder: "Villa ,Studio ,Apartment ...",
+  },
+  {
+    label: "No. of Bathrooms",
+    placeholder: "Enter A Number",
+  },
+  {
+    label: "No. of Bedrooms",
+    placeholder: "Enter A Number",
+  },
+  {
+    label: "Budget",
+    placeholder: "Enter You Budget",
+    rowSpan: "col-span-3",
+  },
+  {
+    label: "Phone Number",
+    placeholder: "Enter Your Phone",
+    leftIcon: FaPhoneAlt,
+    rightIcon: FaCircle,
+    rowSpan: "col-span-1",
+  },
+  {
+    label: "Message",
+    rightIcon: FaRegCircle,
+    placeholder: "Enter Your Message here.",
+    rowSpan: "col-span-4",
   },
 ];

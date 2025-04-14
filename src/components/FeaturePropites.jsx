@@ -1,22 +1,25 @@
 import React from "react";
-import SeactionHeader from "../../components/SeactionHeader";
-import Button from "../../components/Button";
-import FeatureCard from "../../components/FeatureCard";
+import SeactionHeader from "./SeactionHeader";
+import Button from "./Button";
+import FeatureCard from "./FeatureCard";
 
-import { features } from "../../assets/data";
+import { features } from "../assets/data";
 
-const FeaturePropites = () => {
+const FeaturePropites = ({
+  sectionTitle,
+  sectionSubTitle,
+  sectionId,
+  btnContent,
+}) => {
   return (
     <div className="mt-7 text-white px-2">
       <div className="flex items-end justify-between gap-5">
-        <SeactionHeader
-          title="Featured Properties"
-          subTiltle='Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.'
-        />
-
+        <SeactionHeader title={sectionTitle} subTiltle={sectionSubTitle} />
+        {sectionId && (
         <span className="hidden md:block">
-          <Button id="view-properties" title="View All Properties" />
+          <Button id={sectionId} title={btnContent} />
         </span>
+        )}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
