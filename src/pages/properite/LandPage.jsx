@@ -4,25 +4,20 @@ import Button from "../../components/Button";
 import { FiSearch } from "react-icons/fi";
 
 import { propertyOptions } from "../../assets/data";
+import SectionTitle from "../../components/SectionTitle";
 
 const LandPage = () => {
   return (
-    <section className="mt-1">
-      <div className="min-h-[300px] flex-center justify-center w-full land-grad">
-        <div className="max-container flex-center">
-          <div>
-            <h1 className="text-2xl md:text-3xl font-bold text-white">
-              Find Your Dream Property
-            </h1>
-            <p className="mt-2 text-sm text-gray-60 lg:max-w-3xl">
-              Welcome to Estatein, where your dream property awaits in every
+    <section>
+      <SectionTitle
+        id="find-property"
+        title="Find Your Dream Property"
+        discription="Welcome to Estatein, where your dream property awaits in every
               corner of our beautiful world. Explore our curated selection of
               properties, each offering a unique story and a chance to redefine
-              your life. With categories to suit every dreamer, your journey
-            </p>
-          </div>
-        </div>
-      </div>
+              your life. With categories to suit every dreamer, your journey"
+      />
+
       <div className="max-container relative py-5 ">
         <div className="w-full flex-center justify-center ">
           <div className="flex-center gap-3 bg-gray-10 w-full md:w-2/3 p-2 rounded-md shadow-lg shadow-white/20 absolute pr-3">

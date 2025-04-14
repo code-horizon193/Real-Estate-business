@@ -33,6 +33,12 @@ body {
     background-size: contain;
   }
 
+  .prop-bg{
+    background-image: url(abstract.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .land-grad{
     background: linear-gradient(62deg, #262626 1%, #2626266a 45% 100%);
   }

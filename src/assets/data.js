@@ -25,10 +25,6 @@ export const links = [
     link: "Services",
     to: "services",
   },
-  {
-    link: "Contact Us",
-    to: "contact",
-  },
 ];
 
 export const statics = [
@@ -390,27 +386,22 @@ export const labelsContact = [
   {
     label: "First Name",
     placeholder: "Enter First Name",
-    
   },
   {
     label: "Last Name",
     placeholder: "Enter Last Name",
-    
   },
   {
     label: "Email",
     placeholder: "Enter Your Email",
-    
   },
   {
     label: "Phone",
     placeholder: "Enter Phone Number",
-    
   },
   {
     label: "Perferred Location",
     placeholder: "Enter Location",
-    
   },
   {
     label: "Property Type",
@@ -441,5 +432,86 @@ export const labelsContact = [
     rightIcon: FaRegCircle,
     placeholder: "Enter Your Message here.",
     rowSpan: "col-span-4",
+  },
+];
+
+export const propertuValues = [
+  {
+    icon: "public/value-1.svg",
+    propName: "Valuation Mastery",
+    propCaption:
+      "Discover the true worth of your property with our expert valuation services.",
+  },
+  {
+    icon: "value-2.svg",
+    propName: "Strategic Marketing",
+    propCaption:
+      "Selling a property requires more than just a listing; it demands a strategic marketing.",
+  },
+  {
+    icon: "value-3.svg",
+    propName: "Negotiation Wizardry",
+    propCaption:
+      "Negotiating the best deal is an art, and our negotiation experts are masters of it.",
+  },
+  {
+    icon: "value-4.svg",
+    propName: "Closing Success",
+    propCaption:
+      "A successful sale is not complete until the closing. We guide you through the intricate closing process.",
+  },
+];
+
+export const efforts = [
+  {
+    icon: "effort-1.svg",
+    propName: "Tenant Harmony",
+    propCaption:
+      "Our Tenant Management services ensure that your tenants have a smooth and reducing vacancies.",
+  },
+  {
+    icon: "effort-2.svg",
+    propName: "Maintenance Ease",
+    propCaption:
+      "Say goodbye to property maintenance headaches. We handle all aspects of property upkeep.",
+  },
+  {
+    icon: "effort-3.svg",
+    propName: "Financial Peace of Mind",
+    propCaption:
+      "Managing property finances can be complex. Our financial experts take care of rent collection",
+  },
+  {
+    icon: "base-i_4.svg",
+    propName: "Legal Guardian",
+    propCaption:
+      "Stay compliant with property laws and regulations effortlessly.",
+  },
+];
+
+export const info = [
+  {
+    icon: "info-1.svg",
+    propName: "Market Insight",
+    propCaption:
+      "Stay ahead of market trends with our expert Market Analysis. We provide in-depth insights into real estate market conditions",
+  },
+  {
+    icon: "info-2.svg",
+    propName: "ROI Assessment",
+    propCaption:
+      "Make investment decisions with confidence. Our ROI Assessment services evaluate the potential returns on your investments",
+  },
+  {
+    icon: "info-3.svg",
+    propName: "Customized Strategies",
+    propCaption:
+      "Every investor is unique, and so are their goals. We develop Customized Investment Strategies tailored to your specific needs",
+  },
+  {
+    icon: "base-i_4.svg",
+    propName: "Diversification Mastery",
+    propCaption:
+      "Diversify your real estate portfolio effectively. Our experts guide you in spreading your investments across various property types and locations",
   },
 ];

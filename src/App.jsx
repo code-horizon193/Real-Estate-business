@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router";
 
 import Home from "./pages/home/Home";
 import AboutUs from "./pages/AboutPage/AboutUs";
-import Contact from "./pages/contact/Contact";
 import Properites from "./pages/properite/Properites";
 import Services from "./pages/service/Services";
 
@@ -19,7 +18,6 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<AboutUs />} />
-            <Route path="/contact" element={<Contact />} />
             <Route path="/properites" element={<Properites />} />
             <Route path="/services" element={<Services />} />
           </Routes>
