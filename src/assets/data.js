@@ -44,26 +44,26 @@ export const statics = [
 
 export const iconBoxs = [
   {
-    icon: "base-i_1.svg",
+    icon: "../public/base-i_1.svg",
     description: "Find Your Dream Home",
   },
   {
-    icon: "base-i_2.svg",
+    icon: "../public/base-i_2.svg",
     description: "Unlock Property Value",
   },
   {
-    icon: "base-i_3.svg",
+    icon: "../public/base-i_3.svg",
     description: "Effortless Property Management",
   },
   {
-    icon: "base-i_4.svg",
+    icon: "../public/base-i_4.svg",
     description: "Smart Investments, Informed Decisions",
   },
 ];
 
 export const features = [
   {
-    image: "feat-1.png",
+    image: "../public/feat-1.png",
     featName: "Seaside Serenity Villa",
     caption:
       "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
@@ -73,7 +73,7 @@ export const features = [
     price: "550,000",
   },
   {
-    image: "feat-2.png",
+    image: "../public/feat-2.png",
     featName: "Metropolitan Haven",
     caption:
       "A chic and fully-furnished 2-bedroom apartment with panoramic city views...",
@@ -83,7 +83,7 @@ export const features = [
     price: "566,500",
   },
   {
-    image: "feat-3.png",
+    image: "../public/feat-3.png",
     featName: "Rustic Retreat Cottage",
     caption:
       "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...",
@@ -101,7 +101,7 @@ export const testimonials = [
       "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
     rate: 5,
     user: {
-      profile: "user-1.png",
+      profile: "../public/user-1.png",
       name: "Wade Warren",
       location: "USA, California",
     },
@@ -112,7 +112,7 @@ export const testimonials = [
       "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
     rate: 5,
     user: {
-      profile: "user-2.png",
+      profile: "../public/user-2.png",
       name: "Emelie Thomson",
       location: "USA, Florida",
     },
@@ -123,7 +123,7 @@ export const testimonials = [
       "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
     rate: 5,
     user: {
-      profile: "user-3.png",
+      profile: "../public/user-3.png",
       name: "Ken Recho",
       location: "USA, Florida",
     },
@@ -185,25 +185,25 @@ export const footerLinks = [
 
 export const values = [
   {
-    image: "public/about-1.svg",
+    image: "../public/about-1.svg",
     vName: "trust",
     vSubTitle:
       "Trust is the cornerstone of every successful real estate transaction.",
   },
   {
-    image: "public/about-2.svg",
+    image: "../public/about-2.svg",
     vName: "excellence",
     vSubTitle:
       "We set the bar high for ourselves. From the properties we list to the services we provide.",
   },
   {
-    image: "public/about-3.svg",
+    image: "../public/about-3.svg",
     vName: "client-center",
     vSubTitle:
       "Your dreams and needs are at the center of our universe. We listen, understand.",
   },
   {
-    image: "public/about-4.svg",
+    image: "../public/about-4.svg",
     vName: "our-commitment",
     vSubTitle:
       "We are dedicated to providing you with the highest level of service, professionalism, and support.",
@@ -437,7 +437,7 @@ export const labelsContact = [
 
 export const propertuValues = [
   {
-    icon: "public/value-1.svg",
+    icon: "../public/value-1.svg",
     propName: "Valuation Mastery",
     propCaption:
       "Discover the true worth of your property with our expert valuation services.",
